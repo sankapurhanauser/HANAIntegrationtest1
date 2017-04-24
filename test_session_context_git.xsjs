@@ -8,7 +8,7 @@ var input_parameters = {};
 input_parameters = JSON.parse($.request.body.asString());
 out_data.inp = input_parameters;
 
-var sqlstring = "SELECT 'This is test' FROM DUMMY";
+var sqlstring = "SELECT 'This is test1' FROM DUMMY";
 
 
 try{
